@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/swiper.min.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;900&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a href="#" class="logo">
+                    <img src="{{ url_for('static', filename='img/logo.svg') }}" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="#" class="menu__link">Обучение со мной</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Мой путь</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Услуги и стоимость</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Записаться</a></li>
+                        <li class="menu__item"><a href="#" class="menu__link">Связаться</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header-bottom">
+                <div class="name"><span>Svetlana</span></div>
+<!--                <div class="header-bottom__photo">-->
+<!--                    <img src="{{ url_for('static', filename='img/art.png') }}" alt="фото">-->
+<!--                </div>-->
+                <div class="name"><span>Peksheva</span></div>
+
+            </div>
+        </div>
+    </header>
+    <section class="road">
+        <div class="container">
+            <div class="road__title">
+                <h2 class="road__title-text">Мой преподавательский путь</h2>
+            </div>
+            <div class="road__wrap">
+                <div class="road__templates">
+                    <img src="{{ url_for('static', filename='img/road/road-1.svg') }}" alt="img" class="road__img">
+                    <span class="road__years">2018 г.</span>
+                    <span class="road__description">Получаю диплом бакалавра с отличием по направлению "Педагогическое
+                        образование", учитель английского и испанского языков.</span>
+                </div>
+                <div class="road__templates">
+                    <img src="{{ url_for('static', filename='img/road/road-2.svg') }}" alt="img" class="road__img">
+                    <span class="road__years">2018-2020 гг.</span>
+                    <span class="road__description">Сдаю на высшие баллы три модуля Кембриджского экзамена для
+                        преподавателей английского языка - TKT.</span>
+                </div>
+                <div class="road__templates">
+                    <img src="{{ url_for('static', filename='img/road/road-3.svg') }}" alt="img" class="road__img">
+                    <span class="road__years">2020 г.</span>
+                    <span class="road__description">Получаю диплом магистра по направлению "Педагогическое образование"
+                        в МПГУ.</span>
+                </div>
+                <div class="road__templates">
+                    <img src="{{ url_for('static', filename='img/road/road-4.svg') }}" alt="img" class="road__img">
+                    <span class="road__years">2018-2021 гг.</span>
+                    <span class="road__description">Преподаю английский детям и взрослым в крупных языковых школах
+                        Москвы и получаю колоссальный опыт ведения индивидуальных и групповых занятий.</span>
+                </div>
+                <div class="road__templates">
+                    <img src="{{ url_for('static', filename='img/road/road-5.svg') }}" alt="img" class="road__img">
+                    <span class="road__years">2021 г.</span>
+                    <span class="road__description">Увольняюсь с официальной работы, становлюсь самозанятой и веду
+                        занятия онлайн только своим ученикам.</span>
+                </div>
+                <div class="road__templates">
+                    <img src="{{ url_for('static', filename='img/road/road-6.svg') }}" alt="img" class="road__img">
+                    <span class="road__years">2021-2022 гг.</span>
+                    <span class="road__description">Прохожу обучение в школе англ. яз. для улучшения своего английского
+                        на уровне С2.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="{{url_for('static', filename='img/slider/slide-1.png')}}" alt="slide-1"></div>
+    <div class="swiper-slide"><img src="{{url_for('static', filename='img/slider/slide-2.jpeg')}}" alt="slide-2"></div>
+    <div class="swiper-slide"><img src="{{url_for('static', filename='img/slider/slide-3.jpeg')}}" alt="slide-3"></div>
+    <div class="swiper-slide"><img src="{{url_for('static', filename='img/slider/slide-4.jpeg')}}" alt="slide-4"></div>
+    <div class="swiper-slide"><img src="{{url_for('static', filename='img/slider/slide-5.png')}}" alt="slide-5"></div>
+    <div class="swiper-slide"><img src="{{url_for('static', filename='img/slider/slide-6.png')}}" alt="slide-6"></div>
+    <div class="swiper-slide"><img src="{{url_for('static', filename='img/slider/slide-7.png')}}" alt="slide-7"></div>
+
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+
+</div>
+    <section class="contact">
+        <div class="container">
+            <div class="contact__wrap">
+                <h2 class="contact__title">Занятия со мной -
+                    это результативно
+                    и в удовольствие.</h2>
+                <span class="contact__description">Предлагаю вместе
+                    погрузиться
+                    в мир английского✨</span>
+                <a href="#" class="contact__link">связаться</a>
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="container">
+            <div class="price__title">
+                <h2 class="price__title-text">УСЛУГИ И СТОИМОСТЬ</h2>
+            </div>
+            <div class="price__wrap">
+                <div class="templates">
+                    <img src="{{ url_for('static', filename='img/price/price-1.jpeg') }}" alt="img" class="templates__img">
+                    <h3 class="templates__serv">ЗАНЯТИЯ В ПАРЕ <br>ПО АНГЛИЙСКОМУ ЯЗЫКУ</h3>
+                    <span class="templates__description">Мы изучаем лексику и грамматику, совершенствуем понимание речи
+                        на слух, улучшаем чтение и письмо, делая упор на развитие устной речи на английском
+                        языке.Обучаясь вместе с партнером поставленные цели будут достигнуты еще быстрее.</span>
+                    <span class="templates__price-tag"><strong>1400 ₽ / 60 мин</strong></span>
+                </div>
+                <div class="templates">
+                    <img src="{{ url_for('static', filename='img/price/price-2.jpeg') }}" alt="img" class="templates__img">
+                    <h3 class="templates__serv">КОНСУЛЬТАЦИИ <br>ДЛЯ ПРЕПОДАВАТЕЛЕЙ</h3>
+                    <span class="templates__description">Вы научитесь планировать все этапы урока, эффективно
+                        использовать интерактивные игры и онлайн-платформы, пользоваться доской miro и включать в свои
+                        занятия разнообразные активности для обучения устной речи, лексики, грамматики, аудированию,
+                        чтению и письму.</span>
+                    <span class="templates__price-tag"><strong>4500 ₽ / 90 мин</strong></span>
+                </div>
+                <div class="templates">
+                    <img src="{{ url_for('static', filename='img/price/price-3.jpeg') }}" alt="img" class="templates__img">
+                    <h3 class="templates__serv">РАЗГОВОРНЫЙ КЛУБ <br> ДЛЯ ДЕТЕЙ И ПОДРОСТКОВ</h3>
+                    <span class="templates__description">Мы изучаем лексику и грамматику, совершенствуем понимание речи
+                        на слух, улучшаем чтение и письмо, делая упор на развитие устной речи на английском
+                        языке.Обучаясь вместе с партнером поставленные цели будут достигнуты еще быстрее.</span>
+                    <span class="templates__price-tag"><strong>1400 ₽ / 60 мин</strong></span>
+                </div>
+                <div class="templates">
+                    <img src="{{ url_for('static', filename='img/price/price-4.jpeg') }}" alt="img" class="templates__img">
+                    <h3 class="templates__serv">ЗАНЯТИЯ В МИНИ-ГРУППЕ <br> ПО АНГЛИЙСКОМУ ЯЗЫКУ</h3>
+                    <span class="templates__description">Занятия проходят в мини-группе до 4х человек. Мы изучаем
+                        лексику
+                        и грамматику, совершенствуем понимание речи на слух, улучшаем чтение и письмо, делая упор на
+                        развитие устной речи на английском языке.</span>
+                    <span class="templates__price-tag"><strong>1400 ₽ / 60 мин</strong></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="questions">
+        <div class="container">
+            <h2 class="questions__title">Часто задаваемые вопросы</h2>
+            <div class="questions__wrap">
+                <div><span class="questions__number">1</span></div>
+                <div class="questions__offers">
+                    <div><span class="questions__question">С какими учениками вы занимаетесь?</span></div>
+                    <div><span class="questions__answer">Я работаю со школьниками и взрослыми.</span></div>
+                </div>
+            </div>
+            <div class="questions__wrap">
+                <div><span class="questions__number">2</span></div>
+                <div class="questions__offers">
+                    <div><span class="questions__question">У вас есть пробное занятие или консультация?</span></div>
+                    <div><span class="questions__answer">Да, я провожу созвон в zoom на 15 минут, на котором мы
+                            знакомимся, обсуждаем ваш запрос на занятия, я провожу устное тестирование на определение
+                            вашего уровня владения английским языком и мы договариваемся о времени занятий.</span></div>
+                </div>
+            </div>
+            <div class="questions__wrap">
+                <div><span class="questions__number">3</span></div>
+                <div class="questions__offers">
+                    <div><span class="questions__question">Кто будет вторым учеником на парных занятиях?</span></div>
+                    <div><span class="questions__answer">Если вы знаете, что ваш друг/подруга планировал заниматься, то
+                            вы можете пригласить его/ее. Если же такого знакомого нет, то я подбираю ученика, который
+                            будет с вами на одном уровне и с похожими целями.</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Slider main container -->
+
+    <footer class="footer">
+        <div class="container">
+            <h2 class="footer__title">
+                Связаться со мной
+            </h2>
+            <div class="footer__link">
+                <a href="#" class="footer__links"><img src="{{ url_for('static', filename='img/connect/instagram.svg') }}" alt="ссылка на инстаграм"></a>
+                <a href="#" class="footer__links"><img src="{{ url_for('static', filename='img/connect/telegram.svg') }}" alt="ссылка на телеграм"></a>
+                <a href="#" class="footer__links"><img src="{{ url_for('static', filename='img/connect/whatsapp.svg') }}" alt="ссылка на вотсап"></a>
+            </div>
+        </div>
+    </footer>
+<!--    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>-->
+    <script src="{{ url_for('static', filename='js/swiper-bundle.min.js') }}"></script>
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
+</body>
+
+</html>
