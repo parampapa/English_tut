@@ -37,10 +37,10 @@ pip install -r requirements.txt
 python main.py
 ```
 ## Лицензия
-Этот проект лицензируется по лицензии системы Апач, см. файл [LICENSE.md]((https://github.com/parampapa/English_tut/blob/main/LICENSE.md))
+Этот проект лицензируется по лицензии системы Апач, см. файл [LICENSE.md](https://github.com/parampapa/English_tut/blob/main/LICENSE)
 для получения дополнительной информации.
 
 ## Над проектом работал
-[Александр Пекшев]((https://github.com/parampapa)),
+[Александр Пекшев](https://github.com/parampapa),
 
 под руководством [Матвея Чекашова](https://github.com/Ryize)
