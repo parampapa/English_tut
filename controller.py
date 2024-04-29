@@ -31,6 +31,9 @@ def login():
     - Перенаправление на 'index' при успешном входе.
     - Перенаправление обратно на 'login' при ошибке входа.
     """
+    if current_user.is_authenticated:
+        # Если пользователь уже залогинен, перенаправляем его на главную страницу
+        return redirect(url_for('index'))
     if request.method == 'GET':
         return render_template('login.html')
     login = request.form.get('login')

@@ -20,25 +20,25 @@
                 </a>
                 <nav class="menu">
                     <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Обучение со мной</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Мой путь</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Услуги и стоимость</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Записаться</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Связаться</a></li>
+<!--                        <li class="menu__item"><a href="#with_mi" class="menu__link">Обучение со мной</a></li>-->
+                        <li class="menu__item"><a href="#road" class="menu__link">Мой путь</a></li>
+                        <li class="menu__item"><a href="#price" class="menu__link">Услуги и стоимость</a></li>
+<!--                        <li class="menu__item"><a href="#" class="menu__link">Записаться</a></li>-->
+                        <li class="menu__item"><a href="#link" class="menu__link">Связаться</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="header-bottom">
-                <div class="name"><span>Svetlana</span></div>
+<!--                <div class="name"><span>Svetlana</span></div>-->
 <!--                <div class="header-bottom__photo">-->
 <!--                    <img src="{{ url_for('static', filename='img/art.png') }}" alt="фото">-->
 <!--                </div>-->
-                <div class="name"><span>Peksheva</span></div>
+<!--                <div class="name"><span>Peksheva</span></div>-->
 
             </div>
         </div>
     </header>
-    <section class="road">
+    <section class="road" id="road">
         <div class="container">
             <div class="road__title">
                 <h2 class="road__title-text">Мой преподавательский путь</h2>
@@ -105,7 +105,7 @@
 
 
 </div>
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="contact__wrap">
                 <h2 class="contact__title">Занятия со мной -
@@ -118,7 +118,7 @@
             </div>
         </div>
     </section>
-    <section class="price">
+    <section class="price" id="price">
         <div class="container">
             <div class="price__title">
                 <h2 class="price__title-text">УСЛУГИ И СТОИМОСТЬ</h2>
@@ -130,7 +130,7 @@
                     <span class="templates__description">Мы изучаем лексику и грамматику, совершенствуем понимание речи
                         на слух, улучшаем чтение и письмо, делая упор на развитие устной речи на английском
                         языке.Обучаясь вместе с партнером поставленные цели будут достигнуты еще быстрее.</span>
-                    <span class="templates__price-tag"><strong>1400 ₽ / 60 мин</strong></span>
+                    <span class="templates__price-tag"><strong>1500 ₽ / 60 мин</strong></span>
                 </div>
                 <div class="templates">
                     <img src="{{ url_for('static', filename='img/price/price-2.jpeg') }}" alt="img" class="templates__img">
@@ -139,7 +139,7 @@
                         использовать интерактивные игры и онлайн-платформы, пользоваться доской miro и включать в свои
                         занятия разнообразные активности для обучения устной речи, лексики, грамматики, аудированию,
                         чтению и письму.</span>
-                    <span class="templates__price-tag"><strong>4500 ₽ / 90 мин</strong></span>
+                    <span class="templates__price-tag"><strong>5000 ₽ / 90 мин</strong></span>
                 </div>
                 <div class="templates">
                     <img src="{{ url_for('static', filename='img/price/price-3.jpeg') }}" alt="img" class="templates__img">
@@ -147,7 +147,7 @@
                     <span class="templates__description">Мы изучаем лексику и грамматику, совершенствуем понимание речи
                         на слух, улучшаем чтение и письмо, делая упор на развитие устной речи на английском
                         языке.Обучаясь вместе с партнером поставленные цели будут достигнуты еще быстрее.</span>
-                    <span class="templates__price-tag"><strong>1400 ₽ / 60 мин</strong></span>
+                    <span class="templates__price-tag"><strong>1000 ₽ / 60 мин</strong></span>
                 </div>
                 <div class="templates">
                     <img src="{{ url_for('static', filename='img/price/price-4.jpeg') }}" alt="img" class="templates__img">
@@ -156,7 +156,7 @@
                         лексику
                         и грамматику, совершенствуем понимание речи на слух, улучшаем чтение и письмо, делая упор на
                         развитие устной речи на английском языке.</span>
-                    <span class="templates__price-tag"><strong>1400 ₽ / 60 мин</strong></span>
+                    <span class="templates__price-tag"><strong>1000 ₽ / 60 мин</strong></span>
                 </div>
             </div>
         </div>
@@ -199,7 +199,7 @@
             <h2 class="footer__title">
                 Связаться со мной
             </h2>
-            <div class="footer__link">
+            <div class="footer__link" id="link">
                 <a href="#" class="footer__links"><img src="{{ url_for('static', filename='img/connect/instagram.svg') }}" alt="ссылка на инстаграм"></a>
                 <a href="#" class="footer__links"><img src="{{ url_for('static', filename='img/connect/telegram.svg') }}" alt="ссылка на телеграм"></a>
                 <a href="#" class="footer__links"><img src="{{ url_for('static', filename='img/connect/whatsapp.svg') }}" alt="ссылка на вотсап"></a>
