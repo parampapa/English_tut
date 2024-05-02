@@ -4,7 +4,7 @@
   background-image: linear-gradient(
                       rgba(0, 0, 0, 0.5),  /* черный цвет с 50% прозрачности на начало и конец градиента */
                       rgba(0, 0, 0, 0.5)
-                    ),url(../img/header_bg.JPG);
+                    );
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
